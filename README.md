@@ -21,6 +21,9 @@ Technologies Used
 - CSS
 - JavaScript
 - JSON
+## Website Screenshot
+
+![Quiz Website](./quiz.png)
 
 Live Demo
 
