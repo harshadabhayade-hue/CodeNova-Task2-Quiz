@@ -1,0 +1,113 @@
+
+[
+    {
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyperlinks Text Mark Language",
+            "Home Tool Markup Language"
+        ],
+        "answer": 0,
+        "explanation": "HTML stands for Hyper Text Markup Language. It is used to structure web pages."
+    },
+    {
+        "question": "Which language is used to style web pages?",
+        "options": [
+            "Java",
+            "CSS",
+            "Python",
+            "C++"
+        ],
+        "answer": 1,
+        "explanation": "CSS is used to style web pages by adding colors, layouts and designs."
+    },
+    {
+        "question": "Which tag is used to create a hyperlink in HTML?",
+        "options": [
+            "<link>",
+            "<p>",
+            "<a>",
+            "<href>"
+        ],
+        "answer": 2,
+        "explanation": "The anchor tag <a> is used to create hyperlinks."
+    },
+    {
+        "question": "Which symbol is used for an ID selector in CSS?",
+        "options": [
+            ".",
+            "#",
+            "*",
+            "@"
+        ],
+        "answer": 1,
+        "explanation": "The # symbol is used to select an element by its ID in CSS."
+    },
+    {
+        "question": "Which keyword declares a variable in JavaScript?",
+        "options": [
+            "int",
+            "var",
+            "string",
+            "define"
+        ],
+        "answer": 1,
+        "explanation": "The var keyword declares a variable in JavaScript. Modern JavaScript also uses let and const."
+    },
+    {
+        "question": "Which HTML tag is used to insert an image?",
+        "options": [
+            "<image>",
+            "<picture>",
+            "<img>",
+            "<src>"
+        ],
+        "answer": 2,
+        "explanation": "The <img> tag is used to display an image on a webpage."
+    },
+    {
+        "question": "Which CSS property changes the background color?",
+        "options": [
+            "color",
+            "background-color",
+            "font-size",
+            "border"
+        ],
+        "answer": 1,
+        "explanation": "The background-color property sets the background color of an element."
+    },
+    {
+        "question": "Which method selects an element by its ID in JavaScript?",
+        "options": [
+            "getElementById()",
+            "getClass()",
+            "queryID()",
+            "selectElement()"
+        ],
+        "answer": 0,
+        "explanation": "document.getElementById() selects an HTML element using its ID."
+    },
+    {
+        "question": "Which HTML tag is used for the largest heading?",
+        "options": [
+            "<h6>",
+            "<head>",
+            "<heading>",
+            "<h1>"
+        ],
+        "answer": 3,
+        "explanation": "The <h1> tag represents the highest-level heading in HTML."
+    },
+    {
+        "question": "Which method is used to print a message in the browser console?",
+        "options": [
+            "print()",
+            "console.log()",
+            "display()",
+            "write.console()"
+        ],
+        "answer": 1,
+        "explanation": "console.log() displays messages in the browser developer console."
+    }
+]

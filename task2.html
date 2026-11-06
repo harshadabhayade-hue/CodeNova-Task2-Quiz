@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz | CodeNova</title>
+    <link rel="stylesheet" href="task2.css">
+    <script src="task2.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>Quiz<span>Master</span></h2>
+        <p>Test Your Knowledge</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Start Screen -->
+        <section id="startScreen" class="screen">
+            <div class="icon">🧠</div>
+            <h1>Welcome to the Quiz!</h1>
+            <p>Challenge yourself with 10 interesting questions.</p>
+            <button id="startBtn">Start Quiz</button>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quizScreen" class="screen hidden">
+
+            <div class="quiz-top">
+                <span id="questionNumber">Question 1 of 10</span>
+                <span id="score">Score: 0</span>
+            </div>
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+            <h2 id="question">Question appears here</h2>
+
+            <div id="options" class="options"></div>
+
+            <div id="feedback" class="feedback" aria-live="polite"></div>
+
+            <button id="nextBtn" disabled>Next Question →</button>
+
+        </section>
+
+        <!-- Result Screen -->
+        <section id="resultScreen" class="screen hidden">
+            <div class="icon">🏆</div>
+            <h1>Quiz Completed!</h1>
+            <p id="finalScore"></p>
+            <p id="resultMessage"></p>
+            <button id="restartBtn">Restart Quiz</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created for CodeNova Frontend Development Internship</p>
+    </footer>
+
+</body>
+</html>
